@@ -11,7 +11,7 @@ export default class Index extends React.Component {
         <p className="pa2"> Want to get in touch with us?</p>
           <h2 className="underlined pa2">Contact Us!</h2>
 
-          <form className="pa5"name="contact-form" method="post">
+          <form className="pa5" name="contact-form" method="post">
               <input type="hidden" name="form-name" value="contact-form" />
               <div className="flex-l mhn1-l">
                     
