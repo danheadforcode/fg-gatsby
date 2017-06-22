@@ -6,6 +6,8 @@ import Helmet from 'react-helmet'
 import { config } from 'config'
 import { rhythm } from '../utils/typography'
 
+import '../css/main.css'
+
 export default class Template extends React.Component {
   static propTypes = {
     children: PropTypes.any
