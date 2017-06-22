@@ -23,43 +23,29 @@ export default class Template extends React.Component {
             { name: "keywords", content: "sample, something" },
           ]}
         />
-        <div
-          style={{
-            background: `rebeccapurple`,
-            marginBottom: rhythm(1),
-          }}
-        >
-          <div
-            style={{
-              margin: `0 auto`,
-              maxWidth: 960,
-              padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
-            }}
-          >
-            <h1 style={{ margin: 0 }}>
-              <Link
-                to={prefixLink("/")}
-                style={{
-                  color: "white",
-                  textDecoration: "none",
-                }}
-              >
-                Gatsby
-              </Link>
-            </h1>
-          </div>
-        </div>
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
-            paddingTop: 0,
-          }}
-        >
+        
+        <nav className="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
+
+          { /* my comment here */ }
+				    <a href="/" className="flex-none">
+					    <img src={require('./logo.png')} alt="Farnborough Guide logo" className="br0 db mb0 w-100"/>
+				    </a>
+              <ul className="flex b grey-3">
+                  <li>
+                    <a href="/" className="pa3 no-underline db">Home</a>
+                  </li>
+                  <li>
+                    <a href="/about/" className="pa3 no-underline db">About Us</a>
+                  </li>
+                  <li className="current">
+                    <a href="/contact/" className="pa3 no-underline db">Contact</a>
+                  </li>
+              </ul>
+          </nav>
+
           {this.props.children}
         </div>
-      </div>
+      
     )
   }
 }
