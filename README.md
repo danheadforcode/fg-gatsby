@@ -34,3 +34,7 @@ $ npm start
 Test your changes
 
 Commit them, push them!
+
+## To research
+
+- How are we going to handle events in this application? Present the options we have as a whole
