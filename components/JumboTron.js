@@ -1,8 +1,11 @@
 import React from 'react'
+
+// We import the image file
 import imageUrl from './NIC_0713.2af54be6.jpg'
 
 class JumboTron extends React.Component {
   render() {
+    // set up a variable with the inline css style for a background image
     let imageStyle = { backgroundImage: 'url(' + imageUrl + ')' };
     return (
         <div className="pv5 pv6-l ph3 bg-center cover" style={imageStyle}>
@@ -26,4 +29,6 @@ class JumboTron extends React.Component {
     )}
 }
 
+// you only have one export because this indicates that this component 
+// is designed for use within other components
 export default JumboTron
