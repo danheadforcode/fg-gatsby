@@ -1,5 +1,5 @@
 import React from 'react'
-
+import index from 'pages/index.js'
 // DAN: This component will work once you import it in the index.js file
 class EventsList extends React.Component {
   render() {
