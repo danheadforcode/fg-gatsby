@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Helmet from 'react-helmet'
 import { config } from 'config'
-
+import EventsList from 'compoments/EventsList'
 // Import components needed for this page
 // - to learn more about what the following components do, just take a
 // - look at the their own files under the components folder in the project
