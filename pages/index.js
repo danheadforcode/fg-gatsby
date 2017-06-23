@@ -29,13 +29,6 @@ export default class Index extends React.Component {
 
         { /* <EventsList /> */ }
 
-        { /* you can delete the stuff under this comment line */ }
-        <h1>
-          Hi Daniel
-        </h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-        <Link to={prefixLink('/page-2/')}>Go to page 2</Link>
       </div>
       
     )
