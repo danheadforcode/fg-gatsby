@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Helmet from 'react-helmet'
 import { config } from 'config'
-import EventsList from 'compoments/EventsList'
+import EventsList from 'components/EventsList'
 // Import components needed for this page
 // - to learn more about what the following components do, just take a
 // - look at the their own files under the components folder in the project
@@ -14,7 +14,7 @@ import IntroBlock from 'components/IntroBlock'
 // has not been created yet
 
 // DAN: 'uncomment' the line below, so that we import the new EventsList component
-// import IntroBlock from 'components/EventsList'
+
 
 // The Home page component
 export default class Index extends React.Component {
@@ -28,7 +28,7 @@ export default class Index extends React.Component {
 
         { /* DAN: uncomment the line below to activate the code */ }
 
-        { /* <EventsList /> */ }
+        <EventsList />
 
       </div>
       

@@ -6,4 +6,5 @@ class EventsList extends React.Component {
         <div>No worries Dan, I took out what was here, we shall come back to this later to change it</div>
     )}
 }
+
 export default EventsList
