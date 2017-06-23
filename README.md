@@ -9,6 +9,12 @@ gatsby new gatsby-example-site
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
+
+
+
+
+
+
 ## Information for Dan
 
 Hi Dan - well done yesterday, we covered a great deal and today your tasks are:
@@ -35,6 +41,42 @@ Test your changes
 
 Commit them, push them!
 
-## To research
+
+
+## Events
 
 - How are we going to handle events in this application? Present the options we have as a whole
+- Create a folder under pages called "events" and in here we add files that represent each of our events based on .md files
+
+
+## How shall we store our images
+
+### Considerations
+
+- Should be easy to upload images such as events posters we want to publish on the site as we currently do
+- Services we can use
+  - Instagram
+  - Cloudinary
+  - Dropbox
+
+## Graphcool
+
+- There is talk of there being a package for this on Gatsby but short of that I will investigate how to integrate
+
+## Serverless
+
+- stdlib
+- serverless
+- webtask 
+
+
+
+## Webhooks
+
+- Trigger builds when
+  - New image is uploaded?
+  - Always when code is pushed to master on GitHub
+
+## Hosting 
+
+- Netlify
