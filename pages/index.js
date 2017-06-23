@@ -13,6 +13,7 @@ import IntroBlock from 'components/IntroBlock'
 // The following line is commented out because the component it imports
 // has not been created yet
 
+// DAN: 'uncomment' the line below, so that we import the new EventsList component
 // import IntroBlock from 'components/EventsList'
 
 // The Home page component
@@ -25,7 +26,7 @@ export default class Index extends React.Component {
         <JumboTron />
         <IntroBlock />
 
-        { /* We shall insert more components here for: */ }
+        { /* DAN: uncomment the line below to activate the code */ }
 
         { /* <EventsList /> */ }
 
