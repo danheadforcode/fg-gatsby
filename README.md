@@ -80,3 +80,7 @@ Commit them, push them!
 ## Hosting 
 
 - Netlify
+
+## Useful links
+
+https://github.com/michaeljdeeb/michaeljdeeb-gatsby-blog/blob/master/pages/contact.js
