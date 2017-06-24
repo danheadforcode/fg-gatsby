@@ -3,6 +3,7 @@ import React from 'react'
 // DAN: This component will work once you import it in the index.js file
 class EventsList extends React.Component {
   render() {
+     
     return (
         
         <div className="db dt-ns mw9 center">
@@ -11,7 +12,7 @@ class EventsList extends React.Component {
             </div>
 		    <div className="fl-m fl-l w-25-m w-25-l">
                 <div className="pa4 pa4-m">
-                    <a href="/events/carbon-trust/"><img src={require('./carbon-trust.jpg')} alt="carbon-trust.jpg" /></a>
+                    <a href="/events/carbon-trust/"><img src={require('../../pages/events/carbon-trust/carbon-trust.jpg')} alt="carbon-trust.jpg" /></a>
                 </div>
             </div>
 	        <div className="fl-m fl-l w-25-m w-25-l">
@@ -23,4 +24,7 @@ class EventsList extends React.Component {
     )}
 }
 
+EventsList.propTypes = {
+    route: React.PropTypes.object,
+}
 export default EventsList

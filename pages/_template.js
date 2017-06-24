@@ -8,12 +8,10 @@ import { rhythm } from '../utils/typography'
 
 import '../css/main.css'
 
-export default class Template extends React.Component {
-  static propTypes = {
-    children: PropTypes.any
-  }
+class Template extends React.Component {
 
   render() {
+    const { location, children } = this.props
     return (
       <div>
         <Helmet
@@ -43,9 +41,17 @@ export default class Template extends React.Component {
               </ul>
           </nav>
 
-          {this.props.children}
+          {children}
         </div>
       
     )
   }
 }
+
+Template.propTypes = {
+  children: React.PropTypes.any,
+  location: React.PropTypes.object,
+  route: React.PropTypes.object,
+}
+
+export default Template
