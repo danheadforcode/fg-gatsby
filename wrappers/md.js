@@ -12,7 +12,7 @@ class Markdown extends React.Component {
     return (
       <div className="markdown">
         <Helmet title={`${config.siteTitle} | ${post.title}`} />
-        <h1>{post.title}</h1>
+        <h2 className="f3 b lh-title mb1 primary">{post.title}</h2>
         <div dangerouslySetInnerHTML={{ __html: post.body }} />
       </div>
     )
