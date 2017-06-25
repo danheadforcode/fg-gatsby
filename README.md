@@ -1,10 +1,31 @@
+## Introduction
+
+## What we shall do next
+
+- Footer to be added from old site
+- CSS formatting for the about us page
+- Contact form to be centered
+- Contact page intro text, let's rewrite that a bit
+- Build the events "landing" page to show off the events in style
+- Homepage events list to be restricted to perhaps 4 at a time
+- Homepage events list to filter out events that are now in the past
+
+## Day to day running of Farnborough Guide
+
+- Hunt around for event information, chat with local businesses and organisations who are planning to run/host an event
+
 ## Events
 
-- How are we going to handle events in this application? Present the options we have as a whole
-- Create a folder under pages called "events" and in here we add files that represent each of our events based on .md files
+For more details on how to add events please read the dedicated README file under the pages/events folder
+
+## Future plans for this site (one step at a time)
+
+Once we have events nailed we shall move on to the next set of modules for the site
+
+- Businesses
 
 
-## How shall we store our images
+## Other things, considerations and ideas
 
 ### Considerations
 
