@@ -69,11 +69,15 @@ class Index extends React.Component {
             </div>
         </div>
       </div>
+
+
+
       
     )
+    
   }
 }
-
+<Footer />
 Index.propTypes = {
   route: React.PropTypes.object,
 }
