@@ -7,6 +7,7 @@ import { config } from 'config'
 import sortBy from 'lodash/sortBy'
 import get from 'lodash/get'
 import include from 'underscore.string/include'
+import footer from 'components/Footer'
 // import EventsList from 'components/EventsList'
 // Import components needed for this page
 // - to learn more about what the following components do, just take a
