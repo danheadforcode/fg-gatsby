@@ -41,6 +41,7 @@ class Index extends React.Component {
         { /* DAN: uncomment the line below to activate the code */ }
 
         <EventsList />
+        <Footer />
 
          <div className="db dt-ns mw9 center">
             <div className="pa4 pa4-m">
@@ -77,7 +78,7 @@ class Index extends React.Component {
     
   }
 }
-<Footer />
+
 Index.propTypes = {
   route: React.PropTypes.object,
 }
