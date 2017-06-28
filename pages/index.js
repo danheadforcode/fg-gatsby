@@ -7,7 +7,6 @@ import { config } from 'config'
 import sortBy from 'lodash/sortBy'
 import get from 'lodash/get'
 import include from 'underscore.string/include'
-import footer from 'components/Footer'
 import EventsList from 'components/EventsList'
 // Import components needed for this page
 // - to learn more about what the following components do, just take a
@@ -41,7 +40,7 @@ class Index extends React.Component {
         { /* DAN: uncomment the line below to activate the code */ }
 
         <EventsList />
-        <Footer />
+        
 
          <div className="db dt-ns mw9 center">
             <div className="pa4 pa4-m">
@@ -69,6 +68,7 @@ class Index extends React.Component {
                 </div>
             </div>
         </div>
+        
       </div>
 
 

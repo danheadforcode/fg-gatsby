@@ -5,6 +5,7 @@ import { prefixLink } from 'gatsby-helpers'
 import Helmet from 'react-helmet'
 import { config } from 'config'
 import { rhythm } from '../utils/typography'
+import Footer from 'components/Footer'
 
 import '../css/main.css'
 
@@ -42,6 +43,7 @@ class Template extends React.Component {
           </nav>
 
           {children}
+          <Footer />
         </div>
       
     )

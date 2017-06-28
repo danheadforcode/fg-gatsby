@@ -1,12 +1,21 @@
 import React from 'react'
+import Logo from '../../pages/logo.png'
 
-class footer extends React.Component {
+class Footer extends React.Component {
   render() {
 
     return (
+	<footer className="bg-black ph3 pv4 white">
+
 	<div className="mw7 center pt3">
 
 		<div className="measure-narrow center mb4">
+
+			<img src={Logo} alt="Kaldi logo" className="db w4 center mb4 br0" />
+
+			
+
+		</div>
 
 		<div className="flex-ns justify-between">
 
@@ -30,16 +39,32 @@ class footer extends React.Component {
 
 			<div>
 				<h3 className="f4 b lh-title mb2 primary">Social media</h3>
+				    <li className="dib ph2 raise">
+                      <a href="https://www.facebook.com/farnboroughguide" target="_blank" className="link bg-white black db relative br-100 pa2">
+                        <svg width="16px" height="16px" className="db">
+                          <use href="#Facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                     <li className="dib ph2 raise">
+                      <a href="https://twitter.com/fboroguide" target="_blank" className="link bg-white black db relative br-100 pa2">
+                        <svg width="16px" height="16px" className="db">
+                          <use href="#twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
                     
 				<ul className="mhn2">
 				</ul>
 			</div>
-            </div>
-            </div>
+
 		</div>
+	</div>
+
+</footer>
 
     )
   }
 }
 
-export default footer
+export default Footer
