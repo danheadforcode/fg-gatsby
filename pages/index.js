@@ -6,7 +6,6 @@ import Helmet from 'react-helmet'
 import { config } from 'config'
 import sortBy from 'lodash/sortBy'
 import get from 'lodash/get'
-import include from 'underscore.string/include'
 import EventsList from 'components/EventsList'
 // Import components needed for this page
 // - to learn more about what the following components do, just take a
@@ -23,12 +22,11 @@ import IntroBlock from 'components/IntroBlock'
 // The Home page component
 class Index extends React.Component {
   render() {
-     // Sort pages.
-      console.log(this.props)
+     // Sort pages.      
     const sortedPages = sortBy(this.props.route.pages, 'data.date')
     // Posts are those with md extension that are not 404 pages OR have a date (meaning they're a react component post).
     const visiblePages = sortedPages.filter(page => (
-      get(page, 'file.ext') === 'md' && !include(page.path, '/404') && get(page, 'data.type' === 'event' ) || get(page, 'data.date')
+      get(page, 'file.ext') === 'md' && get(page, 'data.type' === 'event' ) || get(page, 'data.date')
     ))
     return (
       <div>
